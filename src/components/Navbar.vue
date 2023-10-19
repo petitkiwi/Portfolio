@@ -56,8 +56,8 @@
             <li class="nav-item mx-2 ">
               <a
                 class="nav-link"
-                href="/portfolio"
-                @click.prevent="$emit('scroll', 'portfolio')"
+                href="/projects"
+                @click.prevent="$emit('scroll', 'projects')"
                 :class="{ 'gradient1': nightMode }"
                 >Projects</a
               >

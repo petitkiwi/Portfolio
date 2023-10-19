@@ -216,7 +216,7 @@ a:hover {
 
 .badge:hover {
   transition: all 0.5s;
-  box-shadow: 2px 2px 5px rgb(179, 179, 179);
+  box-shadow: 2px 2px 5px rgb(219, 10, 10);
 }
 
 .btn {

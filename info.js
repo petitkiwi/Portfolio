@@ -30,10 +30,13 @@ let info = {
       description:
         "",
       skills: [       
+        "Programming",
+        "Mechanics",
+        "Electronics",
+        "Project Management",
         "Design with Biomaterials",
         "Low-Tech",
-        "Programming",
-        "Project Management",
+        "WebDev",
       ]
     },
     {
@@ -60,7 +63,7 @@ let info = {
       skills: [
         "Science",
         "Mathematics Specialty",
-        "Cambridge English C2",
+        "Cambridge English C1",
       ]
     },
   ],
@@ -82,14 +85,6 @@ let info = {
       description:
         "Redesign of a service website & Optimization of communication tools, Creation & Update of dashboards, Monitoring & Presentation of quality indicators, Market researches.",
       skills: ["ServiceNow", "PowerBI", "Agile methodology", "Waterfall methodology", "Design"]
-    },
-    {
-      name: "Waitress",
-      place: "Carantec, FRANCE",
-      date: "July 2022",
-      position: "Touristic Crêperie",
-      description: "",
-      skills: ["Customer relations", "Listening", "Work under pressure", "Multitasking", "Thoroughness"]
     },
     {
       name: "English to French Translator",
@@ -122,17 +117,25 @@ let info = {
       pictures: [
         {
           img: require("./src/assets/projects/bee2win/kickstarter.png"),
-          title: "Card Game"
+          title: "My mission was to bridge the gap between classic and modern gaming, making it accessible and fun for everyone. We've eliminated the hassles of paper cuts and missing game pieces. Plus, I've ensured durability by using thin and flexible PVC plastic, making the deck suitable for any gaming occasion."
+        },
+        {
+          img: require("./src/assets/projects/bee2win/whatsinmypack.png"),
+          title: "Explore endless possibilities, from family game nights to spontaneous gatherings. The deck's versatility means it's not just a game; it's a platform for your creativity. With a simple scan of the QR code, access game rules online, enhancing your gaming experience."
+        },
+        {
+          img: require("./src/assets/projects/bee2win/gamehub.jpg"),
+          title: "Join us in revolutionizing game nights - it's time to play and create without limits!"
         },
 
       ],
-      skills: ["Product Development", "Crowdfunding"],
+      skills: ["Product Dev", "Crowdfunding", "Com"],
       category: "Team Project",
       github: "",
       date: "2023",
       link: "https://www.kickstarter.com/projects/clairelefez/bee2win",
       description:
-        ""
+        "The Bee2win card game is a fusion of tradition and creativity that my team and I created from scratch within a six-month period. Throughout the process of ideation, design, prototyping, and production, we were able to expand our skill set in multiple fields simultaneously, making this a highly immersive and rewarding experience.. This 54-card deck marries classic patterns with a blank canvas in the center, inviting the players to customize each card with provided markers. This unique feature allows you to play traditional games like Poker or get inventive with your own creations."
     },
     {
       name: "BIOS Project",
