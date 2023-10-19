@@ -1,1 +1,1 @@
-Claire LEFEZ Professional Portfolio, built with Vue.js framwork and Bootstrap CSS.
+Hi! I am Claire LEFEZ, and this is my Professional Portfolio, built with Vue.js framework and Bootstrap CSS.
