@@ -39,7 +39,7 @@
             type="text"
             name="user_name"
             v-model="name"
-            placeholder="name"
+            placeholder="Name"
             class="pinput"
             :class="{
               'bg-gradient2': !nightMode,
@@ -60,7 +60,7 @@
             type="email"
             name="user_email"
             v-model="email"
-            placeholder="email"
+            placeholder="Email"
             class="pinput"
             :class="{
               'bg-gradient2': !nightMode,
@@ -80,7 +80,7 @@
           <textarea
             name="message"
             v-model="text"
-            placeholder="message"
+            placeholder="Message" 
             class="pinput"
             rows="4"
             :class="{
@@ -158,7 +158,7 @@ export default {
       if (!this.email || !this.name || !this.text) {
         this.showSnackbar = true;
         this.snackbarMessage = "Please fill all the fields";
-        this.snackbarColor = "#3E946D";
+        this.snackbarColor = "#2D7D59";
       } else {
         var obj = {
           user_email: this.email,
@@ -178,7 +178,7 @@ export default {
             (result) => {
               this.showSnackbar = true;
               this.snackbarMessage = "Thanks! Message sent.";
-              this.snackbarColor = "#1aa260";
+              this.snackbarColor = "#2D7D59";
 
               this.email = "";
               this.text = "";
@@ -187,7 +187,7 @@ export default {
             (error) => {
               this.showSnackbar = true;
               this.snackbarMessage = "Oops! Something went wrong.";
-              this.snackbarColor = "#3E946D";
+              this.snackbarColor = "#2D7D59";
             }
           );
       }

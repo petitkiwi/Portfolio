@@ -28,13 +28,17 @@
           </div>
 
           <div class="modal-body my-0 pb-0 px-4 pt-0">
-            <!-- modal date (open) -->
-            <div
-              class="mb-2 date"
-              :class="{ 'gradient1': nightMode, pbgray: nightMode }"
-            >
-              <span>{{ portfolio.date }} • {{ portfolio.category }}</span>
-            </div>
+            <!-- flex container for date, category, and button -->
+            <div class="d-flex justify-content-between align-items-center mb-2 date" :class="{ 'gradient1': nightMode, 'gradient6': !nightMode }">
+              <div>
+                <span>{{ portfolio.date }} • {{ portfolio.category }}</span>
+              </div>
+              <!-- clickable link button to visit project -->
+              <a v-if="portfolio.link !== ''" :href="portfolio.link" target="_blank" class="btn w-25">
+                Visit Project
+              </a>
+            </div>  
+
             <div class="pb-1 bheight">
               <!-- modal skills (open) -->
               <span
@@ -58,13 +62,13 @@
             </div>
           </div>
 
-          <div class="text-center pb-3">
+          <!-- <div class="text-center pb-3">
             <hr
               class="mt-1 mb-3"
               :class="{ 'bg-gradient2': !nightMode, 'bg-gradient5': nightMode }"
             />
             <button class="btn w-25" @click="$emit('close')">Close</button>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
@@ -214,10 +218,11 @@ a:hover {
   font-weight: 500;
 }
 
-.badge:hover {
+/* .badge:hover {
   transition: all 0.5s;
-  box-shadow: 2px 2px 5px rgb(219, 10, 10);
-}
+  box-shadow: 2px 2px 5px;
+  color: 'bg-gradient2'
+} */
 
 .btn {
   border-color: #84CFAD;

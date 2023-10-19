@@ -36,7 +36,6 @@ let info = {
         "Project Management",
         "Design with Biomaterials",
         "Low-Tech",
-        "WebDev",
       ]
     },
     {
@@ -74,7 +73,7 @@ let info = {
       date: "April 2023 - July 2023",
       position: "Soft Robotics Research Intern",
       description:
-        "Conception & Fabrication of a Giant Inflatable Robot for artistic and research purposes, Conduction of Quality Surveys Research & Manufacturing of Bioplastics Actuators & Hydrogels.",
+        "Conception & Fabrication of a Giant Inflatable Robot for artistic and research purposes, Conduction of Quality Surveys, Research & Manufacturing of Bioplastics Actuators & Hydrogels.",
       skills: ["Soft Robotics", "Design", "Sewing", "Biomaterials", "Scientific Paper Writing", "Project Management"]
     },
     {
@@ -142,10 +141,13 @@ let info = {
       title: "BIOS Project",
       pictures: [
         {
-          img: require("./src/assets/projects/bios/iaseaurchintent.png"),
-          title: "IA generated Sea Urchin shell tent"
-        },
-    
+          img: require("./src/assets/projects/bios/nacreseaurchin.jpeg"),
+          title: "Sourcing the right materials was a critical step in the project's development. Extensive research led to the selection of top-quality, durable, and weather-resistant materials that would guarantee the tents' longevity and resilience in various environmental conditions. We sewed the whole structure meticulously to transform these materials into the envisioned sea urchin shell shelter. "
+        },    
+        {
+          img: require("./src/assets/projects/bios/greyseaurchin.jpeg"),
+          title: "The ultimate objective of the BIOS project is to participate in the Grand Prix du Design 2024 in France. The project aims to showcase its innovative inflatable tent, highlighting its unique design, biomimicry aspect, and versatility. "
+        }, 
       ],
       skills: ["3D Modelling", "Manufacturing", "Marketing"],
       category: "Team Project",
@@ -153,7 +155,7 @@ let info = {
       date: "2023",
       link: "",
       description:
-        ""
+        "The BIOS project, which stands for Bubbly-Inflated Organic Structure, embodies a visionary initiative to create an inflatable tent shaped like a sea urchin shell. This innovative structure offers a temporary housing solution for events or personal use. "
     },
     {
       name: "SoftBioMorph: Bioplastic Actuators",

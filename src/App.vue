@@ -3,10 +3,10 @@
   <div id="app" :class="{ 'gradient6': !nightMode, 'gradient1': nightMode }">
     <Navbar @scroll="scrollTo" @nightMode="switchMode" :nightMode="nightMode" />
     <div class="parent">
-      <Home :nightMode="nightMode" />
-      <About id="about" :nightMode="nightMode" />
+      <Home :nightMode="nightMode" />      
       <!-- <Skills id="skills" :nightMode="nightMode" /> -->
       <Projects id="projects" :nightMode="nightMode" />
+      <About id="about" :nightMode="nightMode" />
       <Contact id="contact" :nightMode="nightMode" />
       <Footer :nightMode="nightMode" />
     </div>
