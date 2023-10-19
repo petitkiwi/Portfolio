@@ -144,7 +144,7 @@ let info = {
         },
     
       ],
-      skills: ["Modelisation", "Manufacturing", "Marketing"],
+      skills: ["3D Modelling", "Manufacturing", "Marketing"],
       category: "Team Project",
       github: "",
       date: "2023",
