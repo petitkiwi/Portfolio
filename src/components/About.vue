@@ -2,8 +2,8 @@
   <div
     class="py-4 p-st"
     :class="{
-      'bg-gradient0': !nightMode,
-      'bg-gradient6': nightMode,
+      'bg-white': !nightMode,
+      'bg-gradient5': nightMode,
       'gradient1': nightMode,
     }"
   >
@@ -23,7 +23,7 @@
       </div>
       <hr
         width="50%"
-        :class="{'bg-gradient6': !nightMode, 'bg-gradient1': nightMode }"
+        :class="{'bg-gradient1': !nightMode, 'bg-gradient5': nightMode }"
       />
       <div class="row">
         <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12">

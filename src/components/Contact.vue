@@ -24,7 +24,7 @@
       </div>
       <hr
         width="50%"
-        :class="{ 'bg-gradient3': !nightMode, 'bg-gradient3': nightMode }"
+        :class="{ 'bg-gradient1': !nightMode, 'bg-gradient5': nightMode }"
       />
       <br />
 

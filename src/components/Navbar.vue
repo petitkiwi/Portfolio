@@ -33,6 +33,16 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
 
+            <li class="nav-item mx-2 ">
+              <a
+                class="nav-link"
+                href="/projects"
+                @click.prevent="$emit('scroll', 'projects')"
+                :class="{ 'gradient1': nightMode }"
+                >Projects</a
+              >
+            </li>
+
             <li class="nav-item mx-2">
               <a
                 class="nav-link"
@@ -52,16 +62,6 @@
                 >Skills</a
               >
             </li> -->
-
-            <li class="nav-item mx-2 ">
-              <a
-                class="nav-link"
-                href="/projects"
-                @click.prevent="$emit('scroll', 'projects')"
-                :class="{ 'gradient1': nightMode }"
-                >Projects</a
-              >
-            </li>
 
             <li class="nav-item mx-2">
               <a
@@ -130,7 +130,7 @@ export default {
   font-weight: 500;
 }
 .nav-link:hover{
-  background-color: rgba(160, 159, 159, 0.336);
+  background-color: #2D7D59;
 }
 
 button {
@@ -143,13 +143,14 @@ button:hover {
   outline: none;
 }
 
+/* bottom line */
 nav {
-  border-bottom: 1px solid rgba(160, 159, 159, 0.336);
+  border-bottom: 1px solid #52A37E;
   position: fixed !important;
 }
 
 .navbar-blur {
-  background-color: #ffffff7e;
+  background-color: #8AD0B0;
   backdrop-filter: blur(12px);
 }
 </style>

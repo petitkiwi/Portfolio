@@ -2,8 +2,8 @@
   <div
     class="py-4 p-st"
     :class="{
-      'bg-white': !nightMode,
-      'bg-gradient5': nightMode,
+      'bg-gradient0': !nightMode,
+      'bg-gradient6': nightMode,
       'gradient1': nightMode,
     }"
   >
@@ -23,7 +23,7 @@
       </div>
       <hr
         width="50%"
-        :class="{ gradient5: !nightMode, 'bg-gradient1': nightMode }"
+        :class="{ 'bg-gradient1': !nightMode, 'bg-gradient5': nightMode }"
       />
 
       <!-- <vue-tabs :activeTextColor="!nightMode ? '#06341F' : '#dfdfdf'">
@@ -61,7 +61,7 @@
                     class="badge mr-2 mb-2"
                     v-for="tech in design.skills"
                     :key="tech"
-                    :class="{ 'bg-gradient1': !nightMode, 'bg-gradient6': nightMode }"
+                    :class="{ 'bg-gradient1': !nightMode, 'bg-gradient5': nightMode }"
                     >{{ tech }}</span
                   >
                   •
@@ -158,10 +158,6 @@ export default {
 </script>
 
 <style scoped>
-
-.bg-white {
-  background-color: white;
-}
 
 .title {
   font-size: 30px;

@@ -11,7 +11,7 @@ let info = {
   description:
     [
     "Hey y'all! I'm Claire, a curious and enthusiastic spirit about to graduate from engineering school! I love creating, designing, customizing, manufacturing stuff, but most of all, I love adding a lot of colors and sparkles to my projects.",
-    "I'm always paying attention to every detail so that everything is as perfect as possible and I navigate the digital universe with curiosity, constantly exploring new technologies for my creations. Finally, I approach challenges with optimism, infusing projects with enthusiasm and innovative solutions.",
+    "I'm always paying attention to every detail so that everything is as perfect as possible, and I'm constantly exploring new things for my creations. Finally, I approach challenges with optimism, infusing projects with enthusiasm and innovative solutions.",
     "I am never working, I'm having fun!",
     ],
   links: {
@@ -78,7 +78,7 @@ let info = {
     },
     {
       name: "Project Portfolio Management",
-      place: "Nanterre, FRANCE",
+      place: "Nanterre, FR",
       date: "June 2021 - August 2021",
       position: "Project Portfolio Manager Intern",
       description:
@@ -136,6 +136,55 @@ let info = {
       description:
         "The Bee2win card game is a fusion of tradition and creativity that my team and I created from scratch within a six-month period. Throughout the process of ideation, design, prototyping, and production, we were able to expand our skill set in multiple fields simultaneously, making this a highly immersive and rewarding experience.. This 54-card deck marries classic patterns with a blank canvas in the center, inviting the players to customize each card with provided markers. This unique feature allows you to play traditional games like Poker or get inventive with your own creations."
     },
+    
+    {
+      name: "ChairBot: Disruptive Inflatable Chair",
+      title: "ChairBot: Disruptive Inflatable Chair",
+      pictures: [
+        {
+          img: require("./src/assets/projects/chairbot/chairbot.png"),
+          title: "I analyzed the various aspects to be taken into account in order to ensure the smooth progress of the project: (1) Interactive functionality: Ability to interact with users in a playful and engaging way, through movements, sounds, tactile sensors, etc. The robot also needs to be intuitive in its approach, so that it's easy and engaging for users to interact directly with it. (2) Inflatable structure: Use of durable and resistant materials for the inflatable structure, ensuring the robot's safety and longevity, as well as the integration of movement and air inflation/emptying mechanisms to enable robot interaction and movement. (3) Technology: Integration of on-board electronics (sensors, valve motors and programming) to automate interactions. (4) Scalability: Design the robot to be able to add, update or modify interactive functionalities to meet changing needs."
+        },
+        {
+          img: require("./src/assets/projects/chairbot/chairbotprofile.png"),
+          title: "All parts are made of TPU-coated polyester.The manufacturing process involved cutting a suitable material, assembling it by sewing, and adding ancillary parts to ensure the robot'\s stability and practicality. I took charge of making each part: a main inner tube, five petals, five bellows (to allow the petals to bend), an elastic band to be placed between the walls to allow a flat surface for the post-inflated pistil to sit on, and practical rings to hold the inflatable chair to the ground when inflated. I\'ve also created holes in strategic places to allow air to pass through, as well as for the future implementation of valves or tubes for manual inflation tests."
+        },
+        {
+          img: require("./src/assets/projects/chairbot/stuckinchairbot.png"),
+          title: ""
+        },
+        
+      ],
+      skills: ["Design", "Manufacturing", "Sewing", "Electronics"],
+      category: "Research Project",
+      github: "",
+      date: "2023",
+      link: "",
+      description:
+        "The initial aim of the Chairbot project was to build a giant inflatable interactive polyester robot, followed by the writing of a scientific paper based on the study of the robot's interactions with human users. Prior to any research into an academic problem and a research paper, the robot has a purely artistic/entertainment purpose. "
+    },
+    
+    {
+      name: "SoftBioMorph: Bioplastic Actuators",
+      title: "SoftBioMorph: Bioplastic Actuators",
+      pictures: [
+        {
+          img: require("./src/assets/projects/softbiomorph/bioplastics.png"),
+          title: "Soft materials play a vital role in the fabrication of Shape-Changing Interfaces (SCI). However, commonly used soft materials, such as silicone and thermoplastics, are not sustainable. In contrast, biopolymers are naturally derived, biodegradable and versatile materials, making them a suitable alternative for fabricating SCIs. I co-wrote a research paper for a conference or scientific journal that presents how a readily available biopolymer(i.e. Sodium Alginate) can be leveraged to realize diverse shape-changing behaviors. The paper discusses how the material can be synthesized in a DIY setup to yield properties desirable for shape-change. It further brings a set of fabrication and assembling techniques for creating soft interfaces that realize fundamental forms of shape-change. The application examples demonstrate how this material can replicate traditional soft materials in shape-changing interfaces. The paper discusses limitations, open research questions and common fabrication challenges as biopolymer-based interfaces continue to expand."
+        },
+        {
+          img: require("./src/assets/projects/softbiomorph/colorfulgrippers.png"),
+          title: "Reproduction of Soft Robotics grippers using biomaterials such as gelatin, glycerin, water and coloring additives."
+        },
+      ],
+      skills: ["Biomaterials", "Manufacturing", "Research Paper"],
+      category: "Research Project",
+      github: "",
+      date: "2023",
+      link: "https://dvic.devinci.fr/projects/bioplastic-actuators",
+      description:
+        "SoftBioMorph: Fabricating Sustainable Shape-changing Interfaces using Soft Biopolymers"
+    },
     {
       name: "BIOS Project",
       title: "BIOS Project",
@@ -156,45 +205,6 @@ let info = {
       link: "",
       description:
         "The BIOS project, which stands for Bubbly-Inflated Organic Structure, embodies a visionary initiative to create an inflatable tent shaped like a sea urchin shell. This innovative structure offers a temporary housing solution for events or personal use. "
-    },
-    {
-      name: "SoftBioMorph: Bioplastic Actuators",
-      title: "SoftBioMorph: Bioplastic Actuators",
-      pictures: [
-        {
-          img: require("./src/assets/projects/softbiomorph/bioplastics.png"),
-          title: "Bioplastic Actuators"
-        },
-        {
-          img: require("./src/assets/projects/softbiomorph/bluegripper.png"),
-          title: "Blue Gripper"
-        },
-      ],
-      skills: ["Biomaterials", "Manufacturing", "Research Paper"],
-      category: "Research Project",
-      github: "",
-      date: "2023",
-      link: "",
-      description:
-        ""
-    },
-    {
-      name: "ChairBot: Disruptive Inflatable Chair",
-      title: "ChairBot: Disruptive Inflatable Chair",
-      pictures: [
-        {
-          img: require("./src/assets/projects/chairbot/chairbot.png"),
-          title: "Inflation demo"
-        },
-        
-      ],
-      skills: ["Design", "Manufacturing", "Sewing", "Electronics"],
-      category: "Research Project",
-      github: "",
-      date: "2023",
-      link: "",
-      description:
-        ""
     },
   ],
 

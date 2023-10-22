@@ -58,7 +58,7 @@
             <div>
               <Gallery 
               :images="portfolio.pictures" 
-              :design="true" />
+              :design="true" /> 
             </div>
           </div>
 

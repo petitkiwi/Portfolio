@@ -43,7 +43,7 @@
                   class="mx-2 badge p-2 mb-2"
                   v-for="s in e.skills"
                   :key="s"
-                  :class="{ 'bg-gradient5': nightMode, 'bg-gradient1': !nightMode }"
+                  :class="{ 'bg-gradient6': nightMode, 'bg-gradient1': !nightMode }"
                   >{{ s }}</span
                 >
                 <p class="m-2"></p>

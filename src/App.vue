@@ -16,9 +16,9 @@
 <script>
 import Navbar from "./components/Navbar.vue";
 import Home from "./components/Home";
+import Projects from "./components/Projects";
 import About from "./components/About";
 // import Skills from "./components/Skills";
-import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
@@ -29,9 +29,9 @@ export default {
   components: {
     Navbar,
     Home,
+    Projects,
     About,
     // Skills,
-    Projects,
     Contact,
     Footer,
   },
@@ -49,7 +49,7 @@ export default {
 
   // add "skills" !
   mounted() {
-    ["about", "contact", "projects"].forEach((l) => {
+    ["projects","about","contact"].forEach((l) => {
       if (window.location.href.includes(l)) {
         var elementPosition = document.getElementById(l).offsetTop;
         window.scrollTo({ top: elementPosition - 35, behavior: "smooth" });
