@@ -129,6 +129,7 @@ export default {
 .nav-link {
   font-weight: 500;
 }
+/* fond du bouton night mode */
 .nav-link:hover{
   background-color: #2D7D59;
 }
@@ -143,7 +144,7 @@ button:hover {
   outline: none;
 }
 
-/* bottom line */
+/* bottom line of the top bar*/
 nav {
   border-bottom: 1px solid #52A37E;
   position: fixed !important;

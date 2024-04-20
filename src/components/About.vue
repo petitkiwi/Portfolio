@@ -17,7 +17,7 @@
         <span
           class="title text-center"
           :class="{ 'gradient6': !nightMode, 'gradient1': nightMode }"
-          >My Journey</span
+          >Journey</span
         >
         <!-- section line -->
       </div>

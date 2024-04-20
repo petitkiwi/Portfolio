@@ -11,22 +11,23 @@ let info = {
   description:
     [
     "Hey y'all! I'm Claire, a curious and enthusiastic spirit about to graduate from engineering school! I love creating, designing, customizing, manufacturing stuff, but most of all, I love adding a lot of colors and sparkles to my projects.",
-    "I'm always paying attention to every detail so that everything is as perfect as possible, and I'm constantly exploring new things for my creations. Finally, I approach challenges with optimism, infusing projects with enthusiasm and innovative solutions.",
+    "Currently, I'm an IT Business Analyst at CHANEL working on digital tools and I love it! I love mediating between different parties with very different skills and I enjoy a good day with IT challenges to solve, digging alone or with others.",
     "I am never working, I'm having fun!",
     ],
   links: {
-    linkedin: "https://www.linkedin.com/in/claire-lefez-0859671ba/",
+    linkedin: "https://www.linkedin.com/in/clairelefez",
     github: "https://github.com/petitkiwi",
     DVIC: "https://dvic.devinci.fr/member/claire-lefez",
     resume: "https://www.canva.com/design/DAD__psLhAo/y1ru6-CVVUxtnOI77wLG-w/view?utm_content=DAD__psLhAo&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
   },
+
+  // EDUCATION
   education: [
     {
       name: "ESILV - Creative Technology",
       place: "FRANCE",
       date: "2019 - 2024",
       degree: "Engineering School Diploma",
-      gpa: "4.0/4.0",
       description:
         "",
       skills: [       
@@ -34,8 +35,23 @@ let info = {
         "Mechanics",
         "Electronics",
         "Project Management",
+        "Soft Skills",
+      ]
+    },
+    {
+      name: "IFT - Innovation & Creative Technology",
+      place: "FRANCE",
+      date: "2022 - 2024",
+      degree: "Master of Science",
+      description:
+        "",
+      skills: [       
+        "Innovation",
+        "Kickstarter",
+        "Strategic Marketing",
         "Design with Biomaterials",
         "Low-Tech",
+        "IT",
       ]
     },
     {
@@ -43,7 +59,7 @@ let info = {
       place: "USA",
       date: "September 2021 - December 2021",
       degree: "L3 Computer Science",
-      gpa: "4.0/4.0",
+      gpa: "GPA 4.0/4.0",
       description:
         "",
       skills: [
@@ -66,21 +82,32 @@ let info = {
       ]
     },
   ],
+
+  // EXPERIENCE
   experience: [
     {
-      name: "Design & Manufacturing at Air Giants",
+      name: "IT Business Analyst",
+      place: "Paris, FR",
+      date: "February 2024 - August 2024",
+      company: "CHANEL",
+      description:
+        "Mediation between Product Merchandising & Fashion Expertise departments and the Information Systems Department, analyzing business needs and translating them into technical objectives.",
+      skills: ["Needs analysis", "UAT Testing", "Visual Communication", "Mock-ups", "Continuous improvement"]
+    },
+    {
+      name: "Design & Manufacturing",
       place: "Bristol, UK",
       date: "April 2023 - July 2023",
-      position: "Soft Robotics Research Intern",
+      company: "Air Giants",
       description:
         "Conception & Fabrication of a Giant Inflatable Robot for artistic and research purposes, Conduction of Quality Surveys, Research & Manufacturing of Bioplastics Actuators & Hydrogels.",
       skills: ["Soft Robotics", "Design", "Sewing", "Biomaterials", "Scientific Paper Writing", "Project Management"]
     },
     {
-      name: "Project Portfolio Management",
+      name: "Project Portfolio Managemer",
       place: "Nanterre, FR",
       date: "June 2021 - August 2021",
-      position: "Project Portfolio Manager Intern",
+      company: "TotalEnergies",
       description:
         "Redesign of a service website & Optimization of communication tools, Creation & Update of dashboards, Monitoring & Presentation of quality indicators, Market researches.",
       skills: ["ServiceNow", "PowerBI", "Agile methodology", "Waterfall methodology", "Design"]
@@ -89,7 +116,7 @@ let info = {
       name: "English to French Translator",
       place: "FRANCE",
       date: "May 2020 - Present",
-      position: "Voluntary Organization",
+      company: "Le Cercle Voluntary Organization",
       description: "Translation of stories, mangas, webtoons for a voluntary organization of passionate readers.",
       skills: ["English", "Writing", "Quality", "Team Work", "Organization", "Thorougness"]
     },
@@ -97,7 +124,7 @@ let info = {
       name: "Course Guidance Advisor",
       place: "FRANCE",
       date: "October 2019 - Present",
-      position: "Paid Organization",
+      company: "StudyAdvisor",
       description: "Scholar guidance for students or people in need.",
       skills: ["Listening", "Advising", "Understand Client's Needs"]
     },

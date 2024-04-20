@@ -68,9 +68,9 @@ span {
   border-color: white;
   color: white;
 }
-
+/* fond des boutons socials */
 .btn:hover {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   border-color: white;
   color: #3E946D;
 }
