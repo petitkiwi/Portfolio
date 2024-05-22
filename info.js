@@ -104,7 +104,7 @@ let info = {
       skills: ["Soft Robotics", "Design", "Sewing", "Biomaterials", "Scientific Paper Writing", "Project Management"]
     },
     {
-      name: "Project Portfolio Managemer",
+      name: "Project Portfolio Management",
       place: "Nanterre, FR",
       date: "June 2021 - August 2021",
       company: "TotalEnergies",
