@@ -217,11 +217,11 @@ let info = {
       title: "BIOS Project",
       pictures: [
         {
-          img: require("./src/assets/projects/bios/nacreseaurchin.jpeg"),
+          img: require("./src/assets/projects/bios/bios1.png"),
           title: "Sourcing the right materials was a critical step in the project's development. Extensive research led to the selection of top-quality, durable, and weather-resistant materials that would guarantee the tents' longevity and resilience in various environmental conditions. We sewed the whole structure meticulously to transform these materials into the envisioned sea urchin shell shelter. "
         },    
         {
-          img: require("./src/assets/projects/bios/greyseaurchin.jpeg"),
+          img: require("./src/assets/projects/bios/bios2.png"),
           title: "The ultimate objective of the BIOS project is to participate in the Grand Prix du Design 2024 in France. The project aims to showcase its innovative inflatable tent, highlighting its unique design, biomimicry aspect, and versatility. "
         }, 
       ],
