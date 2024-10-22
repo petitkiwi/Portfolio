@@ -1,7 +1,7 @@
 let info = {
   name: "Claire LEFEZ",
   logo_name: "Claire LEFEZ",
-  photo: require("./src/assets/photo_CV.png"),
+  photo: require("./src/assets/photo_CV_2.png"),
   config: {
     use_cookies: true,
     navbar: {
@@ -10,8 +10,8 @@ let info = {
   },
   description:
     [
-    "Hey y'all! I'm Claire, a curious and enthusiastic spirit about to graduate from engineering school! I love creating, designing, customizing, manufacturing stuff, but most of all, I love adding a lot of colors and sparkles to my projects.",
-    "Currently, I'm an IT Business Analyst at CHANEL working on digital tools and I love it! I love mediating between different parties with very different skills and I enjoy a good day with IT challenges to solve, digging alone or with others.",
+    "Hey y'all!",
+    "I'm Claire, a curious and enthusiastic spirit graduated from engineering school! I love creating, designing, customizing, manufacturing stuff, but most of all, I love adding a lot of colors and sparkles to my projects.",
     "I am never working, I'm having fun!",
     ],
   links: {
@@ -85,6 +85,15 @@ let info = {
 
   // EXPERIENCE
   experience: [
+    {
+      name: "Production & Marketing Operator",
+      place: "Roscoff, FR",
+      date: "September 2024 - October 2024",
+      company: "Maison Quéméner",
+      description:
+        "Work on the entire vegetable production cycle (harvesting, packaging, sales, distribution), sales and customer advice, online order management and new customer acquisition.",
+      skills: ["Needs analysis", "UAT Testing", "Visual Communication", "Mock-ups", "Continuous improvement"]
+    },
     {
       name: "IT Business Analyst",
       place: "Paris, FR",
